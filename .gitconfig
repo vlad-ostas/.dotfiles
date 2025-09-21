@@ -1,0 +1,16 @@
+[alias]
+	st = status
+	tree = log --pretty=format:\"%C(yellow)%h %C(green)%ah%C(auto)%d %C(blue)%cn %C(reset)- %s\" --graph --all
+	br = branch
+	ci = commit
+	co = checkout
+	sub = submodule
+[user]
+	name = ostas
+	email = ostas@dummy.mail
+[core]
+	editor = nvim
+[push]
+	autoSetupRemote = true
+[init]
+	defaultBranch = main
